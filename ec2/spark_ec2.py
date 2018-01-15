@@ -328,6 +328,7 @@ def get_spark_ami(opts):
         "t2.medium":   "hvm",
         "t2.micro":    "hvm",
         "t2.small":    "hvm",
+        "m4.large":    "hvm",
     }
     if opts.instance_type in instance_types:
         instance_type = instance_types[opts.instance_type]
